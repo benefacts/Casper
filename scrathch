@@ -1,0 +1,16 @@
+<style>
+    .main-header {
+        background-size: inital;
+		background: #FFF no-repeat center center;
+    }
+
+    .nav-closed .menu-button {
+        color: rgb(32,32,32);
+    	border-color: rgba(32, 32, 32, 0.6);
+    }
+
+    blockquote p {
+    	font-style: normal;
+	}
+
+    </style>

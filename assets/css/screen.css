@@ -314,7 +314,7 @@ blockquote {
 
 blockquote p {
     margin: 0.8em 0;
-    font-style: italic;
+    font-style: normal;
 }
 
 blockquote small {
@@ -506,8 +506,8 @@ body.nav-opened .site-wrapper {
     height: 100vh;
     margin-bottom: 5rem;
     text-align: center;
-    background: #222 no-repeat center center;
-    background-size: cover;
+    background: #FFF no-repeat center center;
+    background-size: inital;
     overflow: hidden;
 }
 
@@ -640,8 +640,8 @@ body.nav-opened .nav {
     font-size: 1.2rem;
     vertical-align: bottom;
     color: #B8B8B8;
-    content: counter(item, lower-roman);
-    counter-increment: item;
+    /*content: counter(item, lower-roman);*/
+    /*counter-increment: item;*/
 }
 .nav li {
     margin: 0;
@@ -816,8 +816,8 @@ body.nav-opened .nav {
 
 /* When the navigation is closed */
 .nav-closed .menu-button {
-    color: #fff;
-    border-color: rgba(255, 255, 255, 0.6);
+    color: rgb(32,32,32);
+    border-color: rgba(32, 32, 32, 0.6);
 }
 .nav-closed .menu-button:hover {
     color: #222;
